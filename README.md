@@ -13,14 +13,14 @@ duplicate_names
 
 on the for loop I used enumerate because it lets you create a counter/index
 
-    isduplicate 
-        a variable that return true or false depednding on the iteration of the loop
+isduplicate 
+    a variable that return true or false depednding on the iteration of the loop
 
-    csv_row 
-        the current row of the original DataFrame df. We want to keep the entire row as a variable so we can put it inside one of our lists.
+csv_row 
+    the current row of the original DataFrame df. We want to keep the entire row as a variable so we can put it inside one of our lists.
 
-    if/else statement
-        this checks if the name is a duplicate and then puts the current csv row in the correct list
+if/else statement
+    this checks if the name is a duplicate and then puts the current csv row in the correct list
 
 now that the data is separated into lists we can put the data from the lists into individual DataFrames. Then use "to_csv" to write those DataFrames to csv files.
 
